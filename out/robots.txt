@@ -1,0 +1,11 @@
+# robots.txt for Ram's Audio Visual Services
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://ramsavservices.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
