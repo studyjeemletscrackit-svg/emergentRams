@@ -1,0 +1,165 @@
+SEO-OPTIMIZED WEBSITE BUILD INSTRUCTIONS
+==========================================
+
+READ THIS FILE COMPLETELY BEFORE STARTING THE BUILD
+
+PROJECT REQUIREMENTS:
+- Rebuild my existing website with modern professional styling
+- Implement ALL SEO best practices for Google ranking
+- Mobile-responsive design
+- Fast loading performance
+
+
+===== MANDATORY SEO ELEMENTS =====
+
+1. META TAGS (Every Page Must Have):
+   - <title>Unique Page Title (50-60 chars)</title>
+   - <meta name="description" content="Unique description (150-160 chars)">
+   - <meta name="keywords" content="page, relevant, keywords">
+   - <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   - <meta charset="UTF-8">
+   - <meta name="robots" content="index, follow">
+   - <link rel="canonical" href="exact-page-url">
+
+2. OPEN GRAPH TAGS (For Social Sharing):
+   - <meta property="og:title" content="Page Title">
+   - <meta property="og:description" content="Description">
+   - <meta property="og:image" content="image-url">
+   - <meta property="og:url" content="page-url">
+   - <meta property="og:type" content="website">
+
+3. HTML STRUCTURE:
+   - Use semantic tags: <header>, <nav>, <main>, <article>, <section>, <footer>
+   - ONE <h1> per page (main title)
+   - Proper heading order: h1 → h2 → h3 (don't skip levels)
+   - Clean, valid HTML5 code
+
+4. IMAGES:
+   - Every image MUST have descriptive alt text
+   - Add loading="lazy" to all images below fold
+   - Include width and height attributes
+   - Optimize/compress all images
+   - Use WebP format when possible
+
+5. LINKS:
+   - Descriptive anchor text (avoid "click here")
+   - Internal links between related pages
+   - External links with rel="noopener"
+   - No broken links
+
+6. URLS:
+   - Clean readable URLs (/about-us not /page?id=2)
+   - Use hyphens not underscores
+   - Include keywords naturally
+   - Keep short and descriptive
+
+7. SCHEMA MARKUP (Add to relevant pages):
+   <script type="application/ld+json">
+   {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Company Name",
+     "url": "website-url",
+     "logo": "logo-url"
+   }
+   </script>
+   
+   Use schema types: Organization, LocalBusiness, Product, Article, BreadcrumbList
+
+8. PERFORMANCE:
+   - Minify CSS and JavaScript
+   - Combine CSS files where possible
+   - Use defer/async on non-critical scripts
+   - Page load under 3 seconds
+   - Mobile-first responsive design
+
+9. CONTENT:
+   - Minimum 300 words per page
+   - Target keyword in: title, h1, first paragraph, URL, meta description
+   - Natural writing (no keyword stuffing)
+   - Scannable sections with subheadings
+
+10. TECHNICAL FILES NEEDED:
+    - robots.txt in root directory
+    - XML sitemap (sitemap.xml)
+    - favicon.ico
+    
+11. ACCESSIBILITY:
+    - Good color contrast
+    - Keyboard navigation support
+    - Form labels properly linked
+    - Descriptive link text
+    - Minimum 16px font size
+
+12. MOBILE REQUIREMENTS:
+    - Fully responsive on all screens
+    - Touch-friendly buttons (min 44x44px)
+    - No horizontal scrolling
+    - Fast mobile load time
+
+
+===== STYLING REQUIREMENTS =====
+
+DESIGN STYLE: Modern, clean, professional
+
+MUST HAVE:
+- Consistent color scheme throughout
+- Professional fonts (max 2-3 families)
+- Clear call-to-action buttons
+- Good whitespace and spacing
+- Smooth hover effects/transitions
+- Professional navigation menu
+- Complete footer with sitemap links
+
+AVOID:
+- Heavy animations that slow loading
+- Too many colors/fonts
+- Inline styles (use external CSS)
+- Large unoptimized images
+
+===== VALIDATION CHECKLIST =====
+
+Before completion, verify:
+☐ Every page has unique title and meta description
+☐ All images have alt text
+☐ All links work (no 404s)
+☐ HTML is valid (no errors)
+☐ Mobile responsive on all devices
+☐ Fast loading speed
+☐ robots.txt and sitemap.xml included
+☐ Schema markup on appropriate pages
+☐ ONE h1 per page
+☐ Clean readable URLs
+
+
+===== PRIORITY RANKING =====
+
+CRITICAL (Must Have):
+1. Unique title + meta description per page
+2. Semantic HTML structure
+3. Image alt text on ALL images
+4. Mobile responsive
+5. Fast loading (under 3 seconds)
+
+HIGH PRIORITY:
+6. Schema markup
+7. Clean URLs
+8. Internal linking
+9. robots.txt + sitemap
+10. Open Graph tags
+
+IMPORTANT:
+11. Performance optimization
+12. Accessibility features
+13. Content optimization
+
+
+===== FINAL NOTES =====
+
+- Follow Google's SEO best practices
+- Prioritize user experience
+- Keep code clean and organized
+- Make site easy for search engines to crawl
+
+
+END OF INSTRUCTIONS
